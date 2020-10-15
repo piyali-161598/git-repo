@@ -4,6 +4,13 @@ public class Customer {
 
 	int custId;
 	String custName;
+	String custCity;
+	public String getCustCity() {
+		return custCity;
+	}
+	public void setCustCity(String custCity) {
+		this.custCity = custCity;
+	}
 	public int getCustId() {
 		return custId;
 	}
