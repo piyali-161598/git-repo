@@ -5,10 +5,15 @@ public class Product {
 	int productId;
 	String prodName;
 	String prodDescription;
+	int quantity;
 
+	public int getQuantity(){
+		return quantity;
+	}
 	public int getProductId() {
 		return productId;
 	}
+	
 
 	public void setProductId(int productId) {
 		this.productId = productId;
