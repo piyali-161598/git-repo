@@ -6,6 +6,10 @@ public class Product {
 	String prodName;
 	String prodDescription;
 	int quantity;
+	double price;
+	public double getPrice(){
+		return price;
+	}
 
 	public int getQuantity(){
 		return quantity;
